@@ -342,7 +342,7 @@ template {
 }
 
 body {
-  font-family: "Bangers", cursive;
+  font-family: "Lato", sans-serif;
 }
 
 ul {
@@ -355,7 +355,7 @@ a {
 }
 
 p {
-  color: #E86850;
+  color: #ff847c;
   line-height: 25px;
   font-size: 14px;
 }
@@ -368,22 +368,30 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  justify-content: flex-end;
   padding: 15px;
-  background-color: transparent;
   width: 100%;
+}
+
+nav {
   position: absolute;
+  background-color: transparent;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
 }
 
 .nav-links a {
-  color: #535C68;
+  color: #fff;
   margin-right: 2em;
   font-size: 20px;
 }
 
 header {
-  background: #FCD647;
+  background: url("../images/felt.png") #99b898;
   height: 100vh;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -2,17 +2,22 @@
    @include dflex($just:space-between)
    {
        align-items: center;
-       justify-content: flex-end;
    };
    padding:15px;
-   background-color:transparent;
       width:100%;
-      position: absolute;
+}
+nav{
+    position: absolute;
+    background-color:transparent;
 
+}
+.logo{
+    width:50px;
+    height:50px;
 }
 
 .nav-links a{
-    color:$font-color-primary;
+    color:$color-white;
     margin-right:2em;
     font-size:20px;
 }

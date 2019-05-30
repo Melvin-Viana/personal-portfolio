@@ -1,22 +1,23 @@
-
 // Breakpoints
 $breakpoints: (
-  'xs': 479px,
-  'sm': 480px,
- 'md': 768px,
-  'lg': 992px,
+	'xs': 479px,
+	'sm': 480px,
+	'md': 768px,
+	'lg': 992px
 );
-$break-s:576px;
+$break-s: 576px;
 // Fonts
 $font-stack-primary: 'Lato', sans-serif;
 
 $font-stack-heading: 'Bangers', cursive;
 
-$color-white:#fff;
+$color-white: #fff;
 // Color Scheme
 
-$bg-primary:#FCD647;
-$bg-secondary:#192a56;
-$bg-tertiary:#E86850 ;
+$bg-primary: #99b898;
+$bg-secondary: #feceab;
+$bg-tertiary: #ff847c;
+$bg-quarternary: #e84a5f;
+$bg-gray: #2a363b;
 
-$font-color-primary:#535C68;
+$font-color-primary: #535c68;
