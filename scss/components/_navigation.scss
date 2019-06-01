@@ -36,8 +36,12 @@ nav {
     & a{
         display: none;
         @include mq('md') {
-            margin-right: 2em;
-            display:block;}
+			// All links but not last has right margin
+			&:not(:last-child){
+			margin-right: 2em;
+			}
+			display:block;
+			}
 	    }
     }
 
