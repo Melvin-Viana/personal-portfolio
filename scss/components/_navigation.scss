@@ -1,23 +1,49 @@
-.main-nav{
-   @include dflex($just:space-between)
-   {
-       align-items: center;
-   };
-   padding:15px;
-      width:100%;
+.nav-wrapper{
+	width:100%;
+	position:absolute;
+	background:transparent;
 }
-nav{
-    position: absolute;
-    background-color:transparent;
+.main-nav {
+	@include dflex() {
+		align-items: center;
+	}
+	padding: 15px 0;
+	width: 90%;
+	margin:0 auto;
+}
+nav {
+	& a {
+		color: $color-white;
+		font-size: 20px;
+	}
+}
+.logo {
+	width: 50px;
+	height: 50px;
+	transform: rotate(0deg);
+	margin-right:auto;
+}
+// TODO: Scale image
+.logo:hover {
 
 }
-.logo{
-    width:50px;
-    height:50px;
-}
 
-.nav-links a{
-    color:$color-white;
-    margin-right:2em;
-    font-size:20px;
+.nav-links {
+	display: flex;
+	align-items: center;
+    flex-direction: row;
+
+    & a{
+        display: none;
+        @include mq('md') {
+            margin-right: 2em;
+            display:block;}
+	    }
+    }
+
+.mobile-button{
+	display:block;
+	@include mq('md'){
+		display:none;
+	}
 }

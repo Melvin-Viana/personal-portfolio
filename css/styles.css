@@ -364,32 +364,58 @@ p {
   background-color: #FAD444;
 }
 
-.main-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
+.nav-wrapper {
   width: 100%;
+  position: absolute;
+  background: transparent;
 }
 
-nav {
-  position: absolute;
-  background-color: transparent;
+.main-nav {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav a {
+  color: #fff;
+  font-size: 20px;
 }
 
 .logo {
   width: 50px;
   height: 50px;
+  transform: rotate(0deg);
+  margin-right: auto;
 }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
 .nav-links a {
-  color: #fff;
-  margin-right: 2em;
-  font-size: 20px;
+  display: none;
+}
+@media (min-width: 768px) {
+  .nav-links a {
+    margin-right: 2em;
+    display: block;
+  }
+}
+
+.mobile-button {
+  display: block;
+}
+@media (min-width: 768px) {
+  .mobile-button {
+    display: none;
+  }
 }
 
 header {
-  background: url("../images/felt.png") #99b898;
+  background: url("https://www.transparenttextures.com/patterns/asfalt-light.png") #99b898;
   height: 100vh;
   width: 100%;
 }
