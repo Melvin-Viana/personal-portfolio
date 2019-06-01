@@ -1,12 +1,42 @@
-header{
-   background:url('https://www.transparenttextures.com/patterns/asfalt-light.png') $bg-primary;
-height:100vh;
-width:100%;
-@include dflex($just:center,$dir:column){
-   align-items: center;
+header {
+	background: url('https://www.transparenttextures.com/patterns/brushed-alum.png') $color-primary;
+	height: 600px;
+	width: 100%;
+	padding: 100px 0;
+	@include dflex($dir: column) {
+		align-items: center;
+	}
+}
+.header-text {
+	color: $color-white;
+   font-size: 2.5em;
+   font-weight:900;
+	margin-top: 2.5em;
+	width: 280px;
+	text-align: center;
+	transition: width ease 2s;
+	@include mq('md') {
+		width: 450px !important;
+	}
 }
 
+.fa-chevron-down {
+   animation-duration: 2s;
+   animation-delay:1s;
+	animation-iteration-count: infinite;
+	color: $color-white;
+   margin-top: 2.5em;
 }
-header h1{
-   align-self: center;
+
+.typed {
+   font-weight:200;
+
+	margin: 0;
+	color: $color-secondary;
+	&-container {
+		text-align: center;
+	}
+}
+.typed-cursor {
+	font-size: 1.2em;
 }
