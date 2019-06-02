@@ -9,7 +9,7 @@ header {
 }
 .header-text {
 	color: $color-white;
-   font-size: 2.5em;
+   font-size: 2.75em;
    font-weight:900;
 	margin-top: 2.5em;
 	width: 280px;
@@ -25,9 +25,11 @@ header {
    animation-delay:1s;
 	animation-iteration-count: infinite;
 	color: $color-white;
-   margin-top: 2.5em;
 }
-
+.down{
+	margin-top: 2.5em;
+	&:hover{cursor: pointer;}
+}
 .typed {
    font-weight:200;
 

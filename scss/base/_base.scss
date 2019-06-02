@@ -18,5 +18,6 @@ p {
     font-size: 14px;
 }
 ::selection{
-    background-color:#FAD444;
+    background-color:$color-secondary;
+    color:$color-white;
 }
