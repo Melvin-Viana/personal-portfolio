@@ -1,10 +1,13 @@
 header {
 	background: url('https://www.transparenttextures.com/patterns/brushed-alum.png') $color-primary;
-	height: 600px;
+	height: 100vh;
 	width: 100%;
 	padding: 100px 0;
 	@include dflex($dir: column) {
 		align-items: center;
+	}
+	@include mq('sm'){
+		height:750px !important;
 	}
 }
 .header-text {
@@ -27,12 +30,14 @@ header {
 	color: $color-white;
 }
 .down{
-	margin-top: 2.5em;
+	opacity:0;
+	margin-top: auto;
+	transition: opacity .5s ease;
 	&:hover{cursor: pointer;}
 }
 .typed {
    font-weight:200;
-
+	font-size:32px;
 	margin: 0;
 	color: $color-secondary;
 	&-container {
