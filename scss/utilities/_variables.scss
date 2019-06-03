@@ -1,15 +1,12 @@
 // Breakpoints
 $breakpoints: (
 	'xs': 479px,
-	'sm': 480px,
+	'sm': 576px,
 	'md': 768px,
 	'lg': 992px
 );
-$break-s: 576px;
 // Fonts
 $font-stack-primary: 'Nunito', sans-serif;
-
-$font-stack-heading: 'Lato', sans-serif;
 
 $color-white: #fff;
 // Color Scheme
@@ -17,7 +14,7 @@ $color-white: #fff;
 $color-primary: #45a29e;
 $color-secondary: #1f2833;
 $color-tertiary: #c5c6c7;
-$color-quarternary: #66fcf1;
+$color-quarternary: #d63031;
 $color-gray: #0b0c10;
 
 $font-color-primary: #535c68;
