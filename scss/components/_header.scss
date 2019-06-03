@@ -1,13 +1,13 @@
 header {
 	background: url('https://www.transparenttextures.com/patterns/brushed-alum.png') $color-primary;
-	height: 100vh;
+	height: 750px;
 	width: 100%;
 	padding: 100px 0;
 	@include dflex($dir: column) {
 		align-items: center;
 	}
-	@include mq('sm'){
-		height:750px !important;
+	@include mobileMq(500px){
+		height:100vh;
 	}
 }
 .header-text {
