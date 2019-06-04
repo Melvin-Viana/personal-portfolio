@@ -3,10 +3,6 @@
     @extend %section;
     background:$color-secondary;
     color:$color-white;
-    & h2{
-        padding-bottom:25px;
-        font-weight:900;
-    }
     & li{
         color:$color-primary;
     }
