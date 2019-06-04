@@ -1,14 +1,14 @@
 #portfolio{
     background:$color-tertiary;
+    @extend %section;
 }
-#portfolio h2{
-    text-align: center;
-}
+
 .portfolioCards {
     @include dflex($wrap:wrap);
     margin: 0 auto;
     max-width:1200px;
     justify-content: center;
+    text-align: left;
   }
 
 .portfolio-buttons{

@@ -1,7 +1,6 @@
 #experience{
     width:100%;
-    padding:25px;
-    text-align: center;
+    @extend %section;
     background:$color-secondary;
     color:$color-white;
     & h2{
