@@ -6,9 +6,7 @@
 	background:transparent;
 }
 .main-nav {
-	@include dflex() {
-		align-items: center;
-	}
+	@include dflex($al-items:center);
 	padding: 15px 0;
 	width: 90%;
 	margin:0 auto;
@@ -31,9 +29,7 @@ nav {
 }
 
 .nav-links {
-	display: flex;
-	align-items: center;
-    flex-direction: row;
+	@include dflex($dir:row,$al-items:center);
 
     & a{
         display: none;

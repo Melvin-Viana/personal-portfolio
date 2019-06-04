@@ -1,0 +1,23 @@
+#portfolio{
+    background:$color-tertiary;
+}
+#portfolio h2{
+    text-align: center;
+}
+.portfolioCards {
+    @include dflex($wrap:wrap);
+    margin: 0 auto;
+    max-width:1200px;
+    justify-content: center;
+  }
+
+.portfolio-buttons{
+    @include dflex($just:space-around);
+& a{
+    width: 45%;
+}
+}
+
+.row{
+    margin:0 auto;
+}
