@@ -21,3 +21,12 @@
 .row{
     margin:0 auto;
 }
+
+.btn-demo{
+    @include portfolioBtn($color-primary);
+
+}
+.btn-code{
+   @include portfolioBtn($color-secondary);
+}
+

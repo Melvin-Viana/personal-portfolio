@@ -25,3 +25,15 @@
 		@content;
 	}
 }
+
+// For Buttons
+
+@mixin portfolioBtn($color){
+	background:$color;
+	border:$color;
+	color:white;
+	&:hover{
+		background: darken($color,5%);
+		color:white;
+	}
+}
