@@ -1,0 +1,19 @@
+#contact {
+	@extend %section;
+	background: $color-quarternary;
+	color: $color-white;
+}
+.btn-contact {
+	border-radius: 30px;
+	border: 1px solid #fff;
+    color: $color-white;
+    margin-top:1.2em;
+	padding: 12px 33.6px;
+	transition: padding 0.5s ease, color 0.8s ease;
+	&:hover {
+		background: $color-white;
+		color: $color-quarternary;
+		padding: 12px 40px;
+	}
+}
+
