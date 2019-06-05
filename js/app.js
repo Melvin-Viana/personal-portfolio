@@ -45,7 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         else{
             nav.style.background="transparent";
-            nav.classList.add('slideOutUp');
         }
     }
     if(window.pageYOffset>275){
@@ -53,7 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     else{
         nav.style.background="transparent";
-        nav.classList.add('slideOutUp');
     }
 });
 
