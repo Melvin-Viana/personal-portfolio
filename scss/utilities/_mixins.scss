@@ -3,6 +3,7 @@
 	flex-direction: $dir;
 	flex-wrap: $wrap;
 	justify-content: $just;
+	align-items: $al-items;
 	@content;
 }
 

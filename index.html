@@ -20,18 +20,20 @@
 	</head>
 	<body>
 		<div class="nav-wrapper">
-			<nav class="main-nav">
-				<img src="images/logo.png" class="logo" alt="logo" />
-				<a href="javascript:void(0);" class="mobile-button" onclick="myFunction()">
-					<i class="fa fa-bars fa-2x"></i>
-				</a>
-				<div class="nav-links">
-					<a href="#">Home</a>
-					<a href="#experience">Experience</a>
-					<a href="#portfolio">Portfolio</a>
-					<a href="#contact">Contact</a>
+			<nav class="navbar navbar-expand-md">
+				<img src="images/logo.png" class="logo mr-auto" alt="logo">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa fa-bars fa-1x"></i>				
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				  <div class="navbar-nav nav-links ml-auto">
+					<a class="nav-link  active" href="##">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link " href="#experience">Experience</a>
+					<a class="nav-link " href="#portfolio">Portfolio</a>
+					<a class="nav-link " href="#contact">Contact</a>
+				  </div>
 				</div>
-			</nav>
+			  </nav>
 		</div>
 		<header>
 			<h1 class="header-text">Hi, I'm Melvin. I...</h1>
@@ -172,6 +174,7 @@
 			<h2>Contact</h2>
 			<p>Want to work with me? I'm currently available for work.</p>
 			<a href="mailto:mjviana057@gmail.com" class="btn btn-contact">CONTACT ME</a>
+			
 		</section>
 		<footer>
 			<p class="my-2">Copyright &copy; 2019 | Melvin Viana</p>
@@ -182,11 +185,12 @@
 				<a href="https://instagram.com/mjviana057">
 					<img src="./images/instagram.svg" class="social-icon" alt="instagram-icon" />
 				</a>
-				<a href="https://linkedin.com/in/melvin-viana">
-					<img src="./images/linkedin.svg" class="social-icon" alt="linkedin-icon" />
-				</a>
+				<a href="https://linkedin.com/melvin-viana"></a>
 			</div>
 		</footer>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<script src="js/app.js"></script>
 	</body>
 </html>

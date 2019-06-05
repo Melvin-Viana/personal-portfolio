@@ -4,48 +4,54 @@
 	width:100%;
 	position:absolute;
 	background:transparent;
+	position: fixed;
 }
 .main-nav {
-	@include dflex($al-items:center);
 	padding: 15px 0;
-	width: 90%;
 	margin:0 auto;
+	@include mq('md'){
+		flex-direction: row;
+		align-items: center;
+	}
+}
+
+a.nav-link{
+	color:#fff;
+	opacity:.7;
+	&:hover{
+		color:#fff!important;
+	}
+}
+.active{
+	opacity:1!important;
 }
 nav {
 	& a {
-		color: $color-white;
+		cursor: pointer;
 		font-size: 20px;
 	}
 }
+
+.nav-links{
+	@include mq('md'){
+		@include dflex($just:space-between);
+		width:450px;
+	}
+
+}
+
+
+
 .logo {
 	width: 50px;
 	height: 50px;
-	transform: rotate(0deg);
-	margin-right:auto;
+	
 }
 // TODO: Scale image
 .logo:hover {
 
 }
 
-.nav-links {
-	@include dflex($dir:row,$al-items:center);
-
-    & a{
-        display: none;
-        @include mq('md') {
-			// All links but not last has right margin
-			&:not(:last-child){
-			margin-right: 2em;
-			}
-			display:block;
-			}
-	    }
-    }
-
-.mobile-button{
-	display:block;
-	@include mq('md'){
-		display:none;
-	}
+.fa-bars{
+	color:white;
 }
