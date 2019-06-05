@@ -1,4 +1,23 @@
 
 footer{
-    background:$color-tertiary;
+    background:$color-secondary;
+    color:#fff;
+    text-align: center;
+    padding:35px 0 25px;
+}
+
+.social-icons{
+    height:75px;
+    @include dflex($just:space-between);
+    margin: 0 auto;
+    width:150px;
+    cursor:pointer;
+    & img{
+        width:25px;
+    }
+}
+.social-icon{    opacity:0.3;}
+.social-icon:hover{
+	opacity:1;
+	transform: scale(1.2);
 }

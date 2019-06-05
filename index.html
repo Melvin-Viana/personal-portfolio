@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Nunito|Alegreya'/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href="css/styles.css" rel='stylesheet'/>
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-    <title>Melvin Viana</title>
-</head>
-<body>
-    <div class="nav-wrapper">
-        <nav class="main-nav">
-            <img src="images/logo.png" class="logo" alt="logo"/>
-            <a href="javascript:void(0);" class="mobile-button" onclick="myFunction()">
-                <i class="fa fa-bars fa-2x"></i>
-              </a>
-            <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#experience">Experience</a>
-            <a href=#portfolio>Portfolio</a>
-            <a href="#contact">Contact</a>
-            </div>
-        </nav>
-    </div>
-    <header>
-        <h1 class="header-text">Hi, I'm Melvin. I...</h1>
-       <h2 class="typed-container"> <span class="typed"></span></h2>
-       <a href="#experience" class="down"><i class="fa fa-chevron-down fa-3x"></i>
-       </a>
-    </header>
-    <section id="experience">
-        <h2 class="name">My Experience</h2>
-        <p>Front-end specialist, with a growing list of tools.</p>
-        <div class="experience-container">
-            <div class="front-end">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|Alegreya" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link href="css/styles.css" rel="stylesheet" />
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+		<title>Melvin Viana</title>
+	</head>
+	<body>
+		<div class="nav-wrapper">
+			<nav class="main-nav">
+				<img src="images/logo.png" class="logo" alt="logo" />
+				<a href="javascript:void(0);" class="mobile-button" onclick="myFunction()">
+					<i class="fa fa-bars fa-2x"></i>
+				</a>
+				<div class="nav-links">
+					<a href="#">Home</a>
+					<a href="#experience">Experience</a>
+					<a href="#portfolio">Portfolio</a>
+					<a href="#contact">Contact</a>
+				</div>
+			</nav>
+		</div>
+		<header>
+			<h1 class="header-text">Hi, I'm Melvin. I...</h1>
+			<h2 class="typed-container"><span class="typed"></span></h2>
+			<a href="#experience" class="down"><i class="fa fa-chevron-down fa-3x"></i> </a>
+		</header>
+		<section id="experience">
+			<h2 class="name">My Experience</h2>
+			<p>Front-end specialist, with a growing list of tools.</p>
+			<div class="experience-container">
+				<div class="front-end">
 					<i class="fa fa-laptop fa-3x experience-icon"></i>
 					<h3>Front-end</h3>
 					<ul>
@@ -50,116 +54,134 @@
 						<li>Bootstrap</li>
 						<li>Api | Ajax</li>
 					</ul>
-            </div>
-            <div class="back-end">
-                <i class="fa fa-database fa-3x experience-icon"></i>
-                <h3>Back-end</h3>
-                <ul>
-                    <li>NodeJS</li>
-                    <li>NPM</li>
-                    <li>Express</li>
-                    <li>SQL</li>
-                    <li>Restful Web Services</li>
-                </ul>
-            </div>
-            <div class="tools">
-                <i class="fa fa-wrench fa-3x experience-icon"></i>
-                <h3>Tools</h3>
-                <ul>
-                    <li>Linux || Windows </li>
-                    <li>Hyper && ZSH</li>
-                    <li>Visual Studio Code</li>
-                    <li>Webpack</li>
-                    <li>SASS</li>
-                    <li>Jest</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-                <div class="row">
-                        <div class="portfolioCards">
-                            <div class="col-md-6 col-md-6">
-                            <div class="card mb-3 portfolioCard">
-                            <img class="card-img-top" src="./images/webApp.jpg" alt="Vivianne">
-                            <div class="card-body">
-                            <h4 class="card-title">Web App Dashboard</h4>
-                            <p class="card-text mt-auto">Interactive Dashboard page displaying user statistics on JavaScript generated charts and other common functions on a dashboard.</p>
-                            <div class="portfolio-buttons">
-                            <a href="" class="btn btn-demo">Demo</a>
-                            <a href="" class="btn btn-code">Code</a>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            <div class="col-md-6 col-md-6">
-                                <div class="card mb-3 portfolioCard">
-                                    <img class="card-img-top" src="./images/webStyle.jpg" alt="Vivianne">
-                                    <div class="card-body">
-                                    <h4 class="card-title">Web Style Guide</h4>
-                                    <p class="card-text mt-auto">My custom-made "Bootstrap" created with SASS. Displaying frequently used styles and layouts in CSS. </p>
-                                        <div class="portfolio-buttons">
-                                            <a href="" class="btn btn-demo">Demo</a>
-                                            <a href="" class="btn btn-code">Code</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-md-6">
-                                <div class="card mb-3 portfolioCard">
-                                    <img class="card-img-top" src="./images/jsGame.jpg" alt="Vivianne">
-                                    <div class="card-body">
-                                    <h4 class="card-title">Wheel Of Sucess</h4>
-                                    <p class="card-text mt-auto">A phrase-guessing game implementing DOM navigation with jQuery. This game tests phrases with letters only. </p>
-                                        <div class="portfolio-buttons">
-                                            <a href="" class="btn btn-demo">Demo</a>
-                                            <a href="" class="btn btn-code">Code</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-md-6">
-                                <div class="card mb-3 portfolioCard">
-                                    <img class="card-img-top" src="./images/employeeDir.jpg" alt="Vivianne">
-                                    <div class="card-body">
-                                    <h4 class="card-title">Employee Directory</h4>
-                                    <p class="card-text mt-auto">An employee directory using data from <a href="https://randomuser.me/">randomuser.me</a>. Using JavaScript's fetch method, converting JSON onto the front-end. </p>
-                                        <div class="portfolio-buttons">
-                                            <a href="" class="btn btn-demo">Demo</a>
-                                            <a href="" class="btn btn-code">Code</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-md-6">
-                                <div class="card mb-3 portfolioCard">
-                                    <img class="card-img-top" src="./images/XDG.jpg" alt="Vivianne">
-                                    <div class="card-body">
-                                    <h4 class="card-title">XD Gaming</h4>
-                                    <p class="card-text mt-auto">Simple static website made for a gaming cafe. Used AOS and Typed.js libraries for interactive elements.</p>
-                                        <div class="portfolio-buttons">
-                                            <a href="" class="btn btn-demo">Demo</a>
-                                            <a href="" class="btn btn-code">Code</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p> Want to work with me? I'm currently available for work.</p>
-        <a href="mailto:mjviana057@gmail.com" class="btn btn-contact">CONTACT ME</a>
-    </section>
-    <footer>
-        <!-- <img src="./images/logo.png"/> -->
-        <!-- <div class="social-icons">
-            <img src="./images/github.svg" alt="github-icon">
-            <img src="./images/instagram.svg" alt="instagram-icon">
-            <img src="./images/linkedin.svg" alt="linkedin-icon">
-        </div> -->
-    </footer>
-    <script src="js/app.js"></script>
-</body>
+				</div>
+				<div class="back-end">
+					<i class="fa fa-database fa-3x experience-icon"></i>
+					<h3>Back-end</h3>
+					<ul>
+						<li>NodeJS</li>
+						<li>NPM</li>
+						<li>Express</li>
+						<li>SQL</li>
+						<li>Restful Web Services</li>
+					</ul>
+				</div>
+				<div class="tools">
+					<i class="fa fa-wrench fa-3x experience-icon"></i>
+					<h3>Tools</h3>
+					<ul>
+						<li>Linux || Windows</li>
+						<li>Hyper && ZSH</li>
+						<li>Visual Studio Code</li>
+						<li>Webpack</li>
+						<li>SASS</li>
+						<li>Jest</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio">
+			<h2>Portfolio</h2>
+			<div class="row">
+				<div class="portfolioCards">
+					<div class="col-md-6 col-md-6">
+						<div class="card mb-3 portfolioCard">
+							<img class="card-img-top" src="./images/webApp.jpg" alt="Vivianne" />
+							<div class="card-body">
+								<h4 class="card-title">Web App Dashboard</h4>
+								<p class="card-text mt-auto">
+									Interactive Dashboard page displaying user statistics on JavaScript generated charts
+									and other common functions on a dashboard.
+								</p>
+								<div class="portfolio-buttons">
+									<a href="" class="btn btn-demo">Demo</a>
+									<a href="" class="btn btn-code">Code</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-6">
+						<div class="card mb-3 portfolioCard">
+							<img class="card-img-top" src="./images/webStyle.jpg" alt="Vivianne" />
+							<div class="card-body">
+								<h4 class="card-title">Web Style Guide</h4>
+								<p class="card-text mt-auto">
+									My custom-made "Bootstrap" created with SASS. Displaying frequently used styles and
+									layouts in CSS.
+								</p>
+								<div class="portfolio-buttons">
+									<a href="" class="btn btn-demo">Demo</a>
+									<a href="" class="btn btn-code">Code</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-6">
+						<div class="card mb-3 portfolioCard">
+							<img class="card-img-top" src="./images/jsGame.jpg" alt="Vivianne" />
+							<div class="card-body">
+								<h4 class="card-title">Wheel Of Sucess</h4>
+								<p class="card-text mt-auto">
+									A phrase-guessing game implementing DOM navigation with jQuery. This game tests
+									phrases with letters only.
+								</p>
+								<div class="portfolio-buttons">
+									<a href="" class="btn btn-demo">Demo</a>
+									<a href="" class="btn btn-code">Code</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-6">
+						<div class="card mb-3 portfolioCard">
+							<img class="card-img-top" src="./images/employeeDir.jpg" alt="Vivianne" />
+							<div class="card-body">
+								<h4 class="card-title">Employee Directory</h4>
+								<p class="card-text mt-auto">
+									An employee directory using data from
+									<a href="https://randomuser.me/">randomuser.me</a>. Using JavaScript's fetch method,
+									converting JSON onto the front-end.
+								</p>
+								<div class="portfolio-buttons">
+									<a href="" class="btn btn-demo">Demo</a>
+									<a href="" class="btn btn-code">Code</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-6">
+						<div class="card mb-3 portfolioCard">
+							<img class="card-img-top" src="./images/XDG.jpg" alt="Vivianne" />
+							<div class="card-body">
+								<h4 class="card-title">XD Gaming</h4>
+								<p class="card-text mt-auto">
+									Simple static website made for a gaming cafe. Used AOS and Typed.js libraries for
+									interactive elements.
+								</p>
+								<div class="portfolio-buttons">
+									<a href="" class="btn btn-demo">Demo</a>
+									<a href="" class="btn btn-code">Code</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+			<p>Want to work with me? I'm currently available for work.</p>
+			<a href="mailto:mjviana057@gmail.com" class="btn btn-contact">CONTACT ME</a>
+			
+		</section>
+		<footer>
+            <div class="social-icons">
+				<img src="./images/github.svg" class="social-icon" alt="github-icon" />
+				<img src="./images/instagram.svg" class="social-icon" alt="instagram-icon" />
+				<img src="./images/linkedin.svg" class="social-icon" alt="linkedin-icon" />
+			</div>
+			<p class="my-2">Copyright &copy; 2019 | Melvin Viana</p>
+		</footer>
+		<script src="js/app.js"></script>
+	</body>
 </html>
