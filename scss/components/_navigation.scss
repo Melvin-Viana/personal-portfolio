@@ -5,6 +5,8 @@
 	position:absolute;
 	background:transparent;
 	position: fixed;
+	transition: background .5s ease-out;
+	z-index:2;
 }
 .main-nav {
 	padding: 15px 0;

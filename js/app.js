@@ -27,7 +27,7 @@ let options = {
         }, 500);
     }
 }
-
+// Nav links
 navLinks.forEach(e=>{
     e.addEventListener('click',()=>{e.classList.add('active');
     activeLink.classList.remove('active');
@@ -38,4 +38,23 @@ document.addEventListener('DOMContentLoaded', () => {
     //Iniate typed object on dom load.
     let typed = new Typed(".typed", options);
 
+    window.onscroll = function(){
+
+        if(window.pageYOffset>275){
+            nav.style.background="#1f2833";
+        }
+        else{
+            nav.style.background="transparent";
+            nav.classList.add('slideOutUp');
+        }
+    }
+    if(window.pageYOffset>275){
+        nav.style.background="#1f2833";
+    }
+    else{
+        nav.style.background="transparent";
+        nav.classList.add('slideOutUp');
+    }
 });
+
+//=============================================
