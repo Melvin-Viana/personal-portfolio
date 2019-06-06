@@ -17,10 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
     //Iniate typed object on dom load.
     let typed = new Typed(".typed", options);
     
-    // Positions of each section;
-    const {y} = experience.getBoundingClientRect();
-
-   
     window.onscroll = function () {
         if(experience.getBoundingClientRect().y===0){
             $('.active').classList.remove('active');
@@ -90,7 +86,7 @@ AOS.init({
 });
 
 
-// DOwn
+// Arrow event listener
 downArrow.addEventListener('click', () => {
     $('.active').classList.remove('active');
     queryAll('nav a')[1].classList.add('active');

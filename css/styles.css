@@ -631,6 +631,7 @@ footer {
 
 .social-icon {
   opacity: 0.3;
+  transition: ease 0.3s all;
 }
 
 .social-icon:hover {
