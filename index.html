@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito|Alegreya" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
@@ -36,7 +36,9 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav nav-links ml-auto">
-						<a data-scroll class="nav-link  active" href="#top">Home <span class="sr-only">(current)</span></a>
+						<a data-scroll class="nav-link  active" href="#top"
+							>Home <span class="sr-only">(current)</span></a
+						>
 						<a data-scroll class="nav-link " href="#experience">Experience</a>
 						<a data-scroll class="nav-link " href="#portfolio">Portfolio</a>
 						<a data-scroll class="nav-link " href="#contact">Contact</a>
@@ -50,10 +52,18 @@
 			<a data-scroll href="#experience" class="down"><i class="fa fa-chevron-down fa-3x"></i> </a>
 		</header>
 		<section id="experience">
-			<h2  data-aos="fade-up" data-aos-offset="250" data-aos-duration="700" class="name">My Experience</h2>
-			<p  data-aos="fade-up" data-aos-offset="200" data-aos-duration="700">Front-end specialist, with a growing list of tools.</p>
-			<div class="experience-container" >
-				<div class="front-end" data-aos="fade-up" data-aos-offset="150" data-aos-duration="800" data-aos-delay="300">
+			<h2 data-aos="fade-up" data-aos-offset="250" data-aos-duration="700" class="name">My Experience</h2>
+			<p data-aos="fade-up" data-aos-offset="200" data-aos-duration="700">
+				Front-end specialist, with a growing list of tools.
+			</p>
+			<div class="experience-container">
+				<div
+					class="front-end"
+					data-aos="fade-up"
+					data-aos-offset="150"
+					data-aos-duration="800"
+					data-aos-delay="300"
+				>
 					<i class="fa fa-laptop fa-3x experience-icon"></i>
 					<h3>Front-end</h3>
 					<ul>
@@ -66,7 +76,13 @@
 						<li>Api | Ajax</li>
 					</ul>
 				</div>
-				<div class="back-end" data-aos="fade-up" data-aos-offset="150" data-aos-duration="800" data-aos-delay="300">
+				<div
+					class="back-end"
+					data-aos="fade-up"
+					data-aos-offset="150"
+					data-aos-duration="800"
+					data-aos-delay="300"
+				>
 					<i class="fa fa-database fa-3x experience-icon"></i>
 					<h3>Back-end</h3>
 					<ul>
@@ -77,7 +93,13 @@
 						<li>Restful Web Services</li>
 					</ul>
 				</div>
-				<div class="tools" data-aos="fade-up" data-aos-offset="150" data-aos-duration="800" data-aos-delay="300">
+				<div
+					class="tools"
+					data-aos="fade-up"
+					data-aos-offset="150"
+					data-aos-duration="800"
+					data-aos-delay="300"
+				>
 					<i class="fa fa-wrench fa-3x experience-icon"></i>
 					<h3>Tools</h3>
 					<ul>
@@ -95,10 +117,9 @@
 			<h2>Portfolio</h2>
 			<div class="row">
 				<div class="portfolioCards">
-					<div class="col-md-6 col-md-6" data-aos="fade-right" data-aos-offset="150" data-aos-duration="1200">
-						
+					<div class="col-md-6 col-md-6" data-aos="fade-right" data-aos-offset="350" data-aos-duration="1200">
 						<div class="card mb-3 portfolioCard ">
-							<img class="card-img-top" src="./images/webApp.jpg" alt="Vivianne" />
+							<img class="card-img-top" src="./images/webApp.jpg" alt="Web App Dashboard Preview" />
 							<div class="card-body">
 								<h4 class="card-title">Web App Dashboard</h4>
 								<p class="card-text mt-auto">
@@ -106,18 +127,19 @@
 									and other common functions on a dashboard.
 								</p>
 								<div class="portfolio-buttons">
-											<a href="https://melvin-viana.github.io/webApp-dashboard/" class="btn btn-demo"
+									<a href="https://melvin-viana.github.io/webApp-dashboard/" class="btn btn-demo"
 										>Demo</a
 									>
 									<a href="https://github.com/Melvin-Viana/webApp-dashboard/" class="btn btn-code"
-										>Code</a>
+										>Code</a
+									>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-md-6" data-aos="fade-left" data-aos-offset="150" data-aos-duration="1200">
+					<div class="col-md-6 col-md-6" data-aos="fade-left" data-aos-offset="350" data-aos-duration="1200">
 						<div class="card mb-3 portfolioCard">
-							<img class="card-img-top" src="./images/webStyle.jpg" alt="Vivianne" />
+							<img class="card-img-top" src="./images/webStyle.jpg" alt="Web Style Guide Preview" />
 							<div class="card-body">
 								<h4 class="card-title">Web Style Guide</h4>
 								<p class="card-text mt-auto">
@@ -135,9 +157,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-md-6" data-aos="fade-right" data-aos-offset="150" data-aos-duration="1200">
-							<div class="card mb-3 portfolioCard">
-							<img class="card-img-top" src="./images/jsGame.jpg" alt="Vivianne" />
+					<div class="col-md-6 col-md-6" data-aos="fade-right" data-aos-offset="350" data-aos-duration="1200">
+						<div class="card mb-3 portfolioCard">
+							<img class="card-img-top" src="./images/jsGame.jpg" alt="JavaScript Game Preview" />
 							<div class="card-body">
 								<h4 class="card-title">Wheel Of Sucess</h4>
 								<p class="card-text mt-auto">
@@ -151,9 +173,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-md-6" data-aos="fade-left" data-aos-offset="150" data-aos-duration="1200">
-							<div class="card mb-3 portfolioCard">
-							<img class="card-img-top" src="./images/employeeDir.jpg" alt="Vivianne" />
+					<div class="col-md-6 col-md-6" data-aos="fade-left" data-aos-offset="350" data-aos-duration="1200">
+						<div class="card mb-3 portfolioCard">
+							<img class="card-img-top" src="./images/employeeDir.jpg" alt="Employee Directory Preview" />
 							<div class="card-body">
 								<h4 class="card-title">Employee Directory</h4>
 								<p class="card-text mt-auto">
@@ -162,15 +184,19 @@
 									converting JSON onto the front-end.
 								</p>
 								<div class="portfolio-buttons">
-									<a href="https://melvin-viana.github.io/employeeDirectory/" class="btn btn-demo">Demo</a>
-									<a href="https://github.com/Melvin-Viana/employeeDirectory/" class="btn btn-code">Code</a>
+									<a href="https://melvin-viana.github.io/employeeDirectory/" class="btn btn-demo"
+										>Demo</a
+									>
+									<a href="https://github.com/Melvin-Viana/employeeDirectory/" class="btn btn-code"
+										>Code</a
+									>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-md-6" data-aos="fade-right" data-aos-offset="150" data-aos-duration="1200">
-							<div class="card mb-3 portfolioCard">
-							<img class="card-img-top" src="./images/XDG.jpg" alt="Vivianne" />
+					<div class="col-md-6 col-md-6" data-aos="fade-right" data-aos-offset="350" data-aos-duration="1200">
+						<div class="card mb-3 portfolioCard">
+							<img class="card-img-top" src="./images/XDG.jpg" alt="XD-Gaming Preview" />
 							<div class="card-body">
 								<h4 class="card-title">XD Gaming</h4>
 								<p class="card-text mt-auto">

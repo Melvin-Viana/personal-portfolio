@@ -8,17 +8,17 @@ const navLinks = queryAll('.nav-link');
 const downArrow = document.querySelector('.down');
 
 // Section elements
-const experience =$('#experience'),
-portfolio =$('#portfolio'),
-contact=$('#contact');
+const experience = $('#experience'),
+    portfolio = $('#portfolio'),
+    contact = $('#contact');
 //===================================================
 // Doc load
 document.addEventListener('DOMContentLoaded', () => {
     //Iniate typed object on dom load.
     let typed = new Typed(".typed", options);
-    
+
     window.onscroll = function () {
-        if(experience.getBoundingClientRect().y===0){
+        if (experience.getBoundingClientRect().y === 0) {
             $('.active').classList.remove('active');
             queryAll('nav a')[1].classList.add('active');
         }
