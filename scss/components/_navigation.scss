@@ -19,14 +19,14 @@
 }
 
 a.nav-link{
-	color:#fff;
-	opacity:.7;
-	&:hover{
-		color:#fff!important;
-	}
+	color:rgba(255,255,255,0.7);
+}
+nav a:hover{
+	color:$color-tertiary!important;
 }
 .active{
-	opacity:1!important;
+	color:#fff!important;
+
 }
 nav {
 	& a {

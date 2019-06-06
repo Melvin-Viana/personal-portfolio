@@ -4,8 +4,7 @@ const queryAll = query => document.querySelectorAll(query);
 const mobileNavButton = $('.fa-bars');
 const nav = $('.nav-wrapper');
 const navLinksDiv = $('.nav-links');
-const navLinks = queryAll('.nav-links a');
-const activeLink = $('.active');
+const navLinks = queryAll('.nav-link');
 
 // TODO: Onscroll set nav to fixed position
 const downArrow = document.querySelector('.down');
@@ -29,8 +28,10 @@ let options = {
 }
 // Nav links
 navLinks.forEach(e=>{
-    e.addEventListener('click',()=>{e.classList.add('active');
-    activeLink.classList.remove('active');
+    e.addEventListener('click',()=>{
+        const activeLink = $('a.active');
+        activeLink.classList.remove('active');
+        e.classList.add('active');
     }) ;
 });
 
@@ -56,3 +57,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //=============================================
+var scroll = new SmoothScroll('a[href*="#"]',{
+    speed:1000,
+    spedAsDuration:true,
+});
+
+
+
