@@ -18,11 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let typed = new Typed(".typed", options);
 
     window.onscroll = function () {
-        if (experience.getBoundingClientRect().y === 0) {
-            $('.active').classList.remove('active');
-            queryAll('nav a')[1].classList.add('active');
-        }
-
         //Checks browser Y pos on scroll
         if (window.pageYOffset > 275) {
             nav.style.background = "#1f2833";
@@ -60,15 +55,6 @@ let options = {
         }, 500);
     }
 }
-//================================================================
-// Nav links
-navLinks.forEach(e => {
-    e.addEventListener('click', () => {
-        const activeLink = $('a.active');
-        activeLink.classList.remove('active');
-        e.classList.add('active');
-    });
-});
 
 //=============================================
 // Smooth Scroll
