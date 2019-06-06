@@ -69,3 +69,10 @@ var scroll = new SmoothScroll('a[href*="#"]',{
 //=======================================================
 //AOS
 AOS.init({once:true});
+
+
+// DOwn
+downArrow.addEventListener('click', ()=>{
+    $('.active').classList.remove('active');
+    queryAll('nav a')[1].classList.add('active');
+})

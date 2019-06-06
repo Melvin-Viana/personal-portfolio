@@ -6,4 +6,4 @@ Tasklist:
 - [x]: Create portfolio section
 - [x]: Contact section
 - [ ]: Animate on scroll expereience/portfolio section.
-- [ ]: Add animate class on header text
+- [x]: Add animate class on header text
