@@ -353,6 +353,7 @@ template {
 body {
   font-family: "Nunito", sans-serif;
   height: 100%;
+  overflow-x: hidden;
 }
 
 ul {
