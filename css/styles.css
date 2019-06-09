@@ -527,6 +527,10 @@ header {
   color: #d63031;
 }
 
+#portfolio {
+  overflow: hidden;
+}
+
 .portfolioCards {
   display: flex;
   flex-wrap: wrap;

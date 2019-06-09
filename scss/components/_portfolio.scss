@@ -1,5 +1,6 @@
 #portfolio{
     @extend %section;
+    overflow: hidden;
 }
 
 .portfolioCards {
