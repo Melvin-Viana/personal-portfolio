@@ -445,6 +445,15 @@ nav a {
   order:-1;
 }
 
+a[download]{
+  display:flex;
+  align-items: center;
+}
+
+.navbar-nav{
+  margin-right:35px;
+}
+
 header {
   background: url("../images/brushed-alum.png") #45a29e;
   height: 750px;
