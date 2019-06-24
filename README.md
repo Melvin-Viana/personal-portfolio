@@ -1,9 +1,4 @@
-Tasklist:
-- [x]: Add animate to down arrow
-- [x]: Start experience section
-- [x]: Animate nav on Doc load
-- [x]: Hover on links
-- [x]: Create portfolio section
-- [x]: Contact section
-- [ ]: Animate on scroll expereience/portfolio section.
-- [x]: Add animate class on header text
+My personal portfolio
+
+https://melvin-viana.com
+
