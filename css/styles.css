@@ -571,6 +571,7 @@ header {
   flex-direction: column;
   align-content: center;
 }
+
 @media only screen and (min-width: 768px) {
   .card-body {
     min-height: 255px;
