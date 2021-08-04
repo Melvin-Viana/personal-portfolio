@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     let options = {
-        strings: ["create websites and apps . ", "am a MERN stack Developer.", "love learning about new technology.", "solve problems."],
+        strings: ["create websites and apps. ", "am a MERN stack Developer.", "love learning about new technology.", "🤔 solve problems. 💻"],
         typeSpeed: 25,
         backSpeed: 20,
         startDelay: 1500,
